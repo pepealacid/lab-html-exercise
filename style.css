@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  #lowHeader {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    height: 20px;
+    margin-left: 10px;
+
+  }
+
+  .magnifyingGlass {
+    height: 20px;
+    padding: 0.25em;
+    background-color: rgba(0,0,0,.05);
+    
+  }
+
+  .searchCase {
+    padding: 0.5em 500px;
+    text-align: left;
+    border:0px;
+    background-color: rgba(0,0,0,.05);
+    margin: 8px 0 8px;
+    
+  }
+
+  .searchButton {
+    border: 0;
+    padding: 0.5em;
+    background-color: #fb3e44;
+    color: white;
+   
+  }
+
+  #sectionOne {
+    background-color: rgba(232,217,217,.3);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  #sectionOne h1{
+    text-align: center;
+    font-size: 4em;
+    padding-top: 1.2em;
+    padding-bottom: 0;
+
+  }
+
+  #sectionOne h2{
+    text-align: center;
+    width: 600px;
+  }
+
+  .finalLinks {
+    margin-top: 30px;
+  }
+  .plansButton {
+    text-decoration: none;
+    color:white;
+    background-color: #FB3B49;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-right: 100px;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  }
+
+  .nonStyleLink {
+    text-decoration: none;
+    color: black;
+  }
+
+  #sectionTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #sectionTwo > img {
+    width: 200px;
+    padding: 40px;
+  }
+
+ #sectionTwo h1 {
+    background-color: rgba(255,204,53,.4);
+    padding-left: 40px;
+    padding-right: 40px;
+    font-style: italic;
+    transform: skew(9deg,0deg);
+ }
+
+ #sectionTwo h2 {
+    font-size: 0.8em;
+    width: 630px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 80px;
+ }
+
+ #boxes {
+    display: flex;
+    justify-content: space-around;
+
+ }
+ #boxes img {
+    width: 20px;
+ }
+
+ .service-box {
+    width: 18%;
+ }
+
+ #sectionThree h1 {
+    font-size: 1em;
+    color: #ED1C24;
+
+ }
+
+ #sectionThree p {
+    font-size: 0.8em;
+ }
+
+ .finalButton {
+    margin-top: 50px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 100px 10px 100px;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    margin-bottom: 100px;
+  
+ }.org {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
